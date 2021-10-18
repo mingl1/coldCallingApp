@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
     private String cName;
     private int[] students, drawables;
     private long[] timeSince, timeStart;
-    private boolean[] calledOrNot;
     private ArrayList<String> studentNames;
 
 
@@ -68,7 +67,6 @@ public class MainActivity extends AppCompatActivity {
         students = new int[drawables.length];
         timeSince = new long[drawables.length];
         timeStart = new long[drawables.length];
-        calledOrNot = new boolean[drawables.length];
         buttonView = findViewById(R.id.button);
         icon = findViewById(R.id.icon);
         name = findViewById(R.id.textView2);
